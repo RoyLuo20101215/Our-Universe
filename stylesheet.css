@@ -1,0 +1,1553 @@
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #202020;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12.59px;  
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+.homeheader {
+    height: 100vh;
+    background-image: url('download.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.solarsystemheader {
+    height: 100vh;
+    background-image: url('solarsystem.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.sunheader {
+    height: 100vh;
+    background-image: url('thesun.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.mercuryheader {
+    height: 100vh;
+    background-image: url('mercury.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.venusheader {
+    height: 100vh;
+    background-image: url('venus.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.earthheader {
+    height: 100vh;
+    background-image: url('earth.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.marsheader {
+    height: 100vh;
+    background-image: url('mars.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.jupiterheader {
+    height: 100vh;
+    background-image: url('jupiter.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.saturnheader {
+    height: 100vh;
+    background-image: url('saturn.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.uranusheader {
+    height: 100vh;
+    background-image: url('uranus.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.neptuneheader {
+    height: 100vh;
+    background-image: url('neptune.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.plutoheader {
+    height: 100vh;
+    background-image: url('pluto.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.theuniverseheader {
+    height: 100vh;
+    background-image: url('universe.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.bigbangheader {
+    height: 100vh;
+    background-image: url('bigbang.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.cosmicexpansionheader {
+    height: 100vh;
+    background-image: url('cosmicexpansion.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.darkmatterdarkenergyheader {
+    height: 100vh;
+    background-image: url('darkmatter.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.spacetimeheader {
+    height: 100vh;
+    background-image: url('spacetime.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.galaxiesstarsheader {
+    height: 100vh;
+    background-image: url('galaxiesstar.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.galaxiesheader {
+    height: 100vh;
+    background-image: url('milkyway.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.starsheader {
+    height: 100vh;
+    background-image: url('stars.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.cosmicphenomenasheader {
+    height: 100vh;
+    background-image: url('cosmicphenomena.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.blackholesheader {
+    height: 100vh;
+    background-image: url('blackholes.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.whiteholesheader {
+    height: 100vh;
+    background-image: url('whitewholes.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.wormholesheader {
+    height: 100vh;
+    background-image: url('wormholes.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.quasarsheader {
+    height: 100vh;
+    background-image: url('quasars.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.nebulasheader {
+    height: 100vh;
+    background-image: url('nebula.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.supernovaeheader {
+    height: 100vh;
+    background-image: url('supernova.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.typesofplanetsheader {
+    height: 100vh;
+    background-image: url('typesofplanets.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.terrestrialplanetsheader {
+    height: 100vh;
+    background-image: url('eggshell.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.gasgiantsheader {
+    height: 100vh;
+    background-image: url('gasgiant.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.icegiantsheader {
+    height: 100vh;
+    background-image: url('icegiant.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.dwarfplanetsheader {
+    height: 100vh;
+    background-image: url('dwarfplanets.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.exoplanetsheader {
+    height: 100vh;
+    background-image: url('exoearth.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.giantplanetsheader {
+    height: 100vh;
+    background-image: url('giantplanet.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.moonssatellitesheader {
+    height: 100vh;
+    background-image: url('moonsandsatellites.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.themoonheader {
+    height: 100vh;
+    background-image: url('moon.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.satellitesheader {
+    height: 100vh;
+    background-image: url('satellites.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.spaceobjectsheader {
+    height: 100vh;
+    background-image: url('spaceobjects1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.cometsheader {
+    height: 100vh;
+    background-image: url('comets.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.asteroidsheader {
+    height: 100vh;
+    background-image: url('asteroids.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.meteoroidsheader {
+    height: 100vh;
+    background-image: url('meteors.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.kuiperbeltoortcloudheader {
+    height: 100vh;
+    background-image: url('kuiperbeltoortcloud.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.theorieshypothesesheader {
+    height: 100vh;
+    background-image: url('theorieshypotheses.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.generalrelativityheader {
+    height: 100vh;
+    background-image: url('generalrelativity.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.quantummechanicsheader {
+    height: 100vh;
+    background-image: url('quantummechanics.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.multiversetheoryheader {
+    height: 100vh;
+    background-image: url('multiversetheory.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.stringtheoryheader {
+    height: 100vh;
+    background-image: url('stringtheory.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.fermiparadoxheader {
+    height: 100vh;
+    background-image: url('fermiparadox.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.spaceexplorationheader {
+    height: 100vh;
+    background-image: url('spaceexploration.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.spacemissionsheader {
+    height: 100vh;
+    background-image: url('spacemissions.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.telescopesobservatoriesheader {
+    height: 100vh;
+    background-image: url('telescopesobservatories.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.issheader {
+    height: 100vh;
+    background-image: url('iss.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.spaceagenciesheader {
+    height: 100vh;
+    background-image: url('spaceagencies.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.spacenewsheader {
+    height: 100vh;
+    background-image: url('spacenews.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.astrophysicsheader {
+    height: 100vh;
+    background-image: url('astrophysics.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.lawsofmotiongravityheader {
+    height: 100vh;
+    background-image: url('cradle.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.cosmicbackgroundradiationheader {
+    height: 100vh;
+    background-image: url('cbr.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.cosmicbackgroundradiationheader {
+    height: 100vh;
+    background-image: url('cbr.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.gravitationalwavesheader {
+    height: 100vh;
+    background-image: url('gravitationalwaves.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.cosmicmicrowavebackgroundheader {
+    height: 100vh;
+    background-image: url('cbm.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.sourcesheader {
+    height: 100vh;
+    background-image: url('sources.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.aboutheader {
+    height: 100vh;
+    background-image: url('minecraft.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.contactheader {
+    height: 100vh;
+    background-image: url('computer.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.slide img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    display: block;
+}
+
+.slide-text {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 40%;
+}
+
+.slide-text h2 {
+    margin: 0 0 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin-top: -20px; /* Center vertically */
+    color: white;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.3); /* Translucent background */
+    border-radius: 50%;
+    display: flex;              /* Flexbox for centering */
+    justify-content: center;    /* Horizontal centering */
+    align-items: center;        /* Vertical centering */
+    user-select: none;
+    z-index: 10;                /* Ensure buttons are on top */
+    transition: 0.3s;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.pause-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #333333;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.pause-btn:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.slide {
+    display: none;
+}
+
+.slide:first-child {
+    display: block;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.slideheader {
+    text-align: center;
+    font-size: 1.34em;
+    margin-bottom: 50px;
+}
+
+.slideshowcontent {
+    margin-bottom: 200px;
+}
+
+
+
+
+
+.site-footer {
+    background-color: #202020;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.site-footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-footer p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.site-footer .footer-links {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.site-footer .footer-links li {
+    margin: 0 15px;
+}
+
+.site-footer .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.site-footer .footer-links a:hover {
+    color: #007bff;
+}
+
+.footer-logo {
+    width: 100px;
+    height: auto;
+}
+
+
+
+
+
+
+.scrollableinfo {
+    margin-bottom: 200px;
+}
+
+.featuredcontent {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.featuredcontent h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+.featuredcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.featuredimage {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.featuredinfo {
+    padding: 20px;
+    text-align: left;
+}
+
+.featuredinfo h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.featuredinfo p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+@media screen and (max-width: 768px) {
+    .featuredpanel {
+        max-width: 48%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .featuredpanel {
+        max-width: 100%;
+    }
+}
+
+.featuredpanel2 {
+    flex: 0 0 calc(100% / 2 - 20px); 
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featuredpanel2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.featuredpanel3 {
+    flex: 0 0 calc(100% / 3 - 20px); 
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featuredpanel3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.featuredpanel4 {
+    flex: 0 0 calc(100% / 4 - 20px); 
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featuredpanel4:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.featuredpanel5 {
+    flex: 0 0 calc(100% / 5 - 20px); 
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featuredpanel5:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.featuredpanel6 {
+    flex: 0 0 calc(100% / 6 - 20px); 
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featuredpanel6:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+.solar-system-embed {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.model h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+.model {
+    padding-bottom: 200px;
+    background-color: #f4f4f4;
+}
+
+
+
+
+
+.content-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  margin-bottom: 200px;  
+
+}
+
+.video-container, .image-container {
+  flex: 1;
+  max-width: 45%;
+  margin-left: 20px;
+}
+
+.text-container {
+  flex: 1;
+  max-width: 55%;
+}
+
+.text-container h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+  .content-section {
+    flex-direction: column; 
+  }
+
+  .video-container, .text-container {
+    max-width: 100%;
+    margin-right: 0;
+  }
+}
+
+.image-container img {
+  width: 85%; 
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+
+
+
+.timeline-container {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.timeline-event {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 40px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.timeline-event:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.circle {
+    width: 120px;
+    height: 30px;
+    background-color: #555;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-right: 20px;
+}
+
+.timeline-event:hover .circle {
+    background-color: #007bff;
+    transform: scale(1.2);
+}
+
+.event-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.event-content p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.timeline-text-container h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+
+
+body {
+  background-color: #f4f4f4;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  
+}
+
+
+.maintitle {
+    font-size: 4em;
+    margin: 0;
+    font-weight: 700;
+}
+
+.titleline {
+    width: 60%;
+    border: 1px solid #fff;
+    margin-top: 10px;
+}
+
+.container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-bottom: 50px;
+}
+
+.intro,
+.content {
+    margin-bottom: 200px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+.gap {
+    padding-bottom: 200px;
+    background-color: #f4f4f4;
+}
+
+
+
+
+
+
+
+
+.sources-container {
+    background-color: #fff;
+    width: 90%;
+    max-width: 100%;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sources-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.source-section {
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.source-section h3 {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.source-list {
+    list-style-type: none;
+    background-color: #fff;
+}
+
+.source-list li {
+    margin: 5px 10px;
+    background-color: #444444;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.source-list a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.source-list a:hover {
+    color: #007bff;
+    background-color: #333333;
+    border-radius: 5px;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.contact-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      font-family: Arial, sans-serif;
+    }
+    
+.contact-logo {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.contact-logo:hover {
+    transform: scale(1.1);
+}
+
+    
+.contact-text {
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: center;
+    color: #333;
+}
